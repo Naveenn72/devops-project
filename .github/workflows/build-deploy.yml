@@ -10,15 +10,14 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     env:
-      # Force Node.js 24 on all JavaScript actions
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # force Node.js 24
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6   # MUST be v6
+        uses: actions/checkout@v6   # latest checkout
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4  # MUST be v4
+        uses: actions/setup-node@v4  # latest setup-node
         with:
           node-version: 20
 
