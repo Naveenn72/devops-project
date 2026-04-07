@@ -117,7 +117,7 @@ def home():
 
     </body>
     </html>
-    """, hostname=socket.gethostname(), time=datetime.datetime.now())
+    """, hostname=socket.gethostname(), time=datetime.datetime.now())    
 
 @app.route('/api')
 def api():
