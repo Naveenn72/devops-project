@@ -122,7 +122,7 @@ def home():
 @app.route('/api')
 def api():
     return jsonify({
-        "message": "DevOps API is working",  
+        "message": "DevOps API is working",    
         "status": "success"
     })
 
