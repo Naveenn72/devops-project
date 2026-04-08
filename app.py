@@ -12,7 +12,7 @@ def home():
         <title>DevOps Dashboard</title>
         <style>
             body {
-                margin: 0;    
+                margin: 0;       
                 font-family: Arial;
                 background: linear-gradient(270deg, #667eea, #764ba2, #6dd5ed);
                 background-size: 600% 600%;
